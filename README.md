@@ -71,3 +71,9 @@ Start-UDDashboard -Port 10005 -Dashboard (
 Which as long as you have internet connection as that is required for these charts, you should get the following:-
 ![placeholder](https://raw.githubusercontent.com/psDevUK/New-GoogleBarChart/master/Demo.png
 "Demonstration Charts")
+
+## Show Some Respect
+If you are just using universaldashboard.community version think about putting your hand in your wallet/purse and buying the
+enterprise edition.  I personally own 2 licenses for this, as I think the software is extremely well priced and I know that 
+by buying the product I am helping the developer carry on making the product even better.  So please show some respect and 
+go buy you Enterprise edition of this amazing software.
