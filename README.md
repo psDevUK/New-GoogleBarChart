@@ -49,5 +49,5 @@ Start-UDDashboard -Port 10005 -Dashboard (
 ```
 
 Which as long as you have internet connection as that is required for these charts, you should get the following:-
-![alt text][logo]
-[logo]: https://raw.githubusercontent.com/psDevUK/New-GoogleBarChart/master/Demo.png "Demonstration Charts"
+![placeholder](https://raw.githubusercontent.com/psDevUK/New-GoogleBarChart/master/Demo.png
+"Demonstration Charts")
