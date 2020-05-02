@@ -73,7 +73,7 @@ Which as long as you have internet connection as that is required for these char
 "Demonstration Charts")
 
 ## Show Some Respect
-If you are just using universaldashboard.community version think about putting your hand in your wallet/purse and buying the
+If you are just using universaldashboard.community version think about putting your hand in your wallet/purse and purchase the
 enterprise edition.  I personally own 2 licenses for this, as I think the software is extremely well priced and I know that 
 by buying the product I am helping the developer carry on making the product even better.  So please show some respect and 
 go buy your copy of Enterprise edition. I can certainly vouch it is well worth the money and I have been able to produce my
