@@ -13,15 +13,25 @@ different looking charts from one originally designed component.
 
 ## Parameters
 There are quite a few parameters to use, so please read this section to make the best use of the chart:-
+
 **-ChartType** This allows a selection of Barchart (horizontal) or Columnchart (vertical) to decide the layout, defaults to Barchart
+
 **-Data** Is again a multi dimension array of two or more. Please see the demo for usage, again you have to give a title to the array
+
 **-Width** String parameter to set the width of the component this is defaulted to "500px"
+
 **-Height** String parameter to set the height of the component this is defaulted to "500px"
+
 **-Title** String value to give your chart a title along the top
+
 **-ChartArea** String value defaulted to "50%" no need to adjust, only if you want the chart taking up more area space
+
 **-Stacked** Is a boolean value which is defaulted to $false so if you want to display a stacked chart make sure you pass $true
+
 **-BottomTitle** String value to set the title at the bottom of the chart
+
 **-StartingValue** Integer which is defaulted to 0 but if you needed a different start value to display the chart then change this
+
 **-VerticalTitle** String value to set the title going vertically along the chart
 
 ## Demo
