@@ -44,6 +44,16 @@ This allows a selection of Barchart (horizontal) or Columnchart (vertical) to de
 **-VerticalTitle** 
  String value to set the title going vertically along the chart
 
+## Version 1.0.1 Added Parameters
+* **-Animation** Allows you to select the animation from a validateset
+* **-AnimationDuration** Integer value defaulted to 2000 controls the animation duration
+* **-LegendFontColor** String value to set the legend font colour
+* **-LegendFontSize** Integer to set the font size of the legend text
+* **-LegendPosition** A validateset to allow you to position the legend
+* **-TitleFontSize** Integer value to set the title font size
+* **-TitleFontColor** String value to set the title font colour
+* **-BackgroundColor** Sets the background colour of the chart via a string
+
 ## Demo
 Here is a dashboard showing the same chart data but in 4 different styles:-
 ```
