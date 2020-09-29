@@ -54,6 +54,9 @@ This allows a selection of Barchart (horizontal) or Columnchart (vertical) to de
 * **-TitleFontColor** String value to set the title font colour
 * **-BackgroundColor** Sets the background colour of the chart via a string
 
+## Version 1.0.2 Added Parameter
+* **-Colors** Allows you to specify an array of colours to set for your barcharts
+
 ## Demo
 Here is a dashboard showing the same chart data but in 4 different styles:-
 ```
@@ -69,9 +72,9 @@ Start-UDDashboard -Port 10005 -Dashboard (
         $MultiArray += , @('Norway', 4499367, 5036800)
         New-UDLayout -Columns 4 -Content {
             New-GoogleBarChart -ChartType "ColumnChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country"
-            New-GoogleBarChart -ChartType "ColumnChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country" -Stacked $true
+            New-GoogleBarChart -ChartType "ColumnChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country" -Stacked $true -Colors @("#D6BA73", "#8BBF9F")
             New-GoogleBarChart -ChartType "BarChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country" -Stacked $true
-            New-GoogleBarChart -ChartType "BarChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country"
+            New-GoogleBarChart -ChartType "BarChart" -data @($MultiArray) -Width "500px" -Height "500px" -Title "Population By Country" -BottomTitle "Population" -VerticalTitle "Country"  -Colors @("#04080F", "#507DBC")
         }
     }
 )
